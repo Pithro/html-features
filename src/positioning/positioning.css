@@ -1,0 +1,48 @@
+body {
+  width: 500px;
+  margin: 0 auto;
+}
+
+p {
+  background-color: rgb(207,232,220);
+  border: 2px solid rgb(79,185,227);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.static {
+  position: static;
+}
+
+.relative {
+  position: relative;
+  top: -30px;
+  left: 200px;
+  background: rgba(255,84,104,.3);
+  border: 2px solid rgb(255,84,104);
+}
+
+.absolute {
+  position: absolute;
+  top: 500px;
+  left: 100px;
+  background: rgba(255,84,104,.3);
+  border: 2px solid rgb(255,84,104);
+}
+
+.fixed {
+  position: fixed;
+  top: 350px;
+  left: 500px;
+  background: rgba(255,84,104,.3);
+  border: 2px solid rgb(255,84,104);
+}
+
+.sticky {
+  position: sticky;
+  top: 100px;
+  left: 100px;
+  background: rgba(255,84,104,.3);
+  border: 2px solid rgb(255,84,104);
+}
